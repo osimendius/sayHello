@@ -1,0 +1,13 @@
+python -m venv MyDemoEnv
+MyDemoEnv/scripts/activate.bat
+view>command palette>interpreter>browse folder MyDemoEnv/scripts/python.exe
+>new terminal 
+(MyDemoEnv)...
+
+* PyPI:  pip install flask
+
+$ pip install gunicorn
+Change Production Server to Development Server: ⛳
+$ set FLASK_APP=sayHello
+$ set FLASK_ENV=development
+$ flask run
